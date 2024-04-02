@@ -50,6 +50,7 @@ var promiseAll = function(functions) {
  * @param {Object|Array} obj
  * @return {boolean}
  */
+
 var isEmpty = function(obj) {
     if (typeof obj === 'object') {
         return (Object.keys(obj).length === 0); // Check the length of the keys array
